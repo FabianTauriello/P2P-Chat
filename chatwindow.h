@@ -40,6 +40,7 @@ private slots:
     void on_pictureButton_clicked();
 
     //void setSelectedImage(bool selected);
+    // Test Comment
     void setFileName(QString &fileName);
     QString fileName() const;
     void setReceivedMessage(const QSharedPointer<Message> &receivedMessage);
