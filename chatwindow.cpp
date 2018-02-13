@@ -27,7 +27,7 @@ ChatWindow::ChatWindow(QWidget *parent)
     HTMLDelegate *delegate = new HTMLDelegate(this);
     ui->listView->setItemDelegate(delegate);
     ui->openImageButton->setVisible(false);
-    ui->lineEdit->setPlaceholderText("Enter your message here...");
+    ui->lineEdit->setPlaceholderText("Enter your message here...Please");
     //setStyleSheet("background-color: #59ffff;");
 }
 
